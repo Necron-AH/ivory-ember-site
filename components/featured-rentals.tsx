@@ -1,79 +1,62 @@
-import Image from "next/image"
+import React from "react"
 
-const rentals = [
-  {
-    title: "Candelabras",
-    description: "Elegant table lighting that adds warmth and a formal atmosphere to your event",
-    image: "/images/rentals/candelabras.jpg",
-  },
-  {
-    title: "Tables",
-    description: "Sturdy, clean tables sized for dining, desserts, or guest seating arrangements",
-    image: "/images/rentals/tables.jpg",
-  },
-  {
-    title: "Chairs",
-    description: "Comfortable seating options that match your event style and guest count",
-    image: "/images/rentals/chairs.jpg",
-  },
-  {
-    title: "Centerpieces",
-    description: "Pre-designed table arrangements that bring your entire setup together visually",
-    image: "/images/rentals/centerpieces.jpg",
-  },
-  {
-    title: "Arches",
-    description: "Statement backdrops for ceremonies, entrances, or photo areas",
-    image: "/images/rentals/arches.jpg",
-  },
-]
-
-export function FeaturedRentals() {
+export function QuoteSection() {
   return (
-    <section id="rentals" className="py-24 lg:py-32 bg-background">
+    <section id="quote" className="py-24 lg:py-32 bg-background">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        {/* Section Header */}
         <div className="text-center mb-16">
-  <p className="text-sm tracking-widest uppercase text-muted-foreground mb-4">
-    What We Provide
-  </p>
-
-  <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground tracking-tight">
-    Everything You Need for a Complete Event Setup
-  </h2>
-
-  <p className="mt-6 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-    From tables and chairs to full decorative setups, we provide everything needed to host a clean, coordinated event without the stress.
-  </p>
-</div>
-
-        {/* Rentals Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-8 items-start">
-          {rentals.map((rental) => (
-            <div
-              key={rental.title}
-              className="group cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl rounded-sm"
-            >
-              <div className="relative w-full overflow-hidden bg-muted rounded-sm" style={{ paddingBottom: "133.33%" }}>
-                <Image
-                  src={rental.image}
-                  alt={rental.title}
-                  fill
-                  sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 20vw"
-                  className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mt-5 text-center px-1">
-                <h3 className="text-sm tracking-widest uppercase text-foreground font-semibold">
-                  {rental.title}
-                </h3>
-                <p className="mt-3 text-xs text-muted-foreground/80 leading-relaxed font-light">
-                  {rental.description}
-                </p>
-              </div>
-            </div>
-          ))}
+          <p className="text-sm tracking-widest uppercase text-muted-foreground mb-4">
+            Get a Quote
+          </p>
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground tracking-tight">
+            Plan Your Event with Us
+          </h2>
+          <p className="mt-6 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
+            Fill out the form below and we’ll provide a detailed quote tailored to your event needs.
+          </p>
         </div>
+        <form className="max-w-3xl mx-auto grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <input
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            required
+            className="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+            className="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md"
+          />
+          <input
+            type="text"
+            name="location"
+            placeholder="Chicago or Suburb (e.g. Naperville, Evanston)"
+            required
+            className="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md"
+          />
+          <input
+            type="number"
+            name="guestCount"
+            placeholder="Approx. number of guests (50–70 ideal)"
+            required
+            className="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md"
+          />
+          <textarea
+            name="details"
+            placeholder="Event Details"
+            rows={4}
+            className="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md sm:col-span-2"
+          />
+          <button
+            type="submit"
+            className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 sm:col-span-2"
+          >
+            Get My Setup Plan
+          </button>
+        </form>
       </div>
     </section>
   )

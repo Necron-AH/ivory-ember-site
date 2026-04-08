@@ -69,14 +69,14 @@ export function QuoteSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Input
               type="text"
-              placeholder="Event Location"
+              placeholder="Chicago or Suburb (e.g. Naperville, Evanston)"
               value={formData.location}
               onChange={(e) => setFormData({ ...formData, location: e.target.value })}
               className="bg-primary-foreground text-foreground placeholder:text-muted-foreground border-0 h-12"
             />
             <Input
               type="text"
-              placeholder="Estimated Guest Count"
+              placeholder="Approx. number of guests (50–70 ideal)"
               value={formData.guestCount}
               onChange={(e) => setFormData({ ...formData, guestCount: e.target.value })}
               className="bg-primary-foreground text-foreground placeholder:text-muted-foreground border-0 h-12"
@@ -122,7 +122,7 @@ export function QuoteSection() {
             size="lg"
             className="w-full md:w-auto bg-accent text-accent-foreground hover:brightness-110 px-20 py-8 text-base md:text-lg tracking-widest uppercase font-semibold shadow-lg transition-all duration-200"
           >
-            Request a Quote
+            Get My Setup Plan
           </Button>
         </form>
       </div>
