@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 export function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center pt-20">
-      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-wedding.jpg"
@@ -17,31 +16,31 @@ export function Hero() {
         <div className="absolute inset-0 bg-foreground/50" />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
         <h1 className="font-serif text-background tracking-tight drop-shadow-md">
           <span className="block text-2xl md:text-3xl lg:text-4xl font-normal leading-snug text-background/80 uppercase tracking-widest mb-3">
-            Luxury Event Rentals
+            Chicago Event Setups
           </span>
           <span className="block text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-balance">
-            Designed to Impress,<br className="hidden md:block" /> Without the Stress
+            Beautiful Setups for 50–70 Guests,<br className="hidden md:block" /> Without Overspending
           </span>
         </h1>
+
         <p className="mt-6 text-lg md:text-xl text-background max-w-2xl mx-auto leading-relaxed drop-shadow-sm">
-          Premium furniture and décor rentals with seamless delivery, setup, and styling for weddings and special events.
+          Affordable, stress-free event setups for Chicago hosts. We handle delivery, setup, and breakdown so you can focus on your guests.
         </p>
+
         <div className="mt-10">
           <Button
             asChild
             size="lg"
             className="bg-background text-foreground hover:bg-background/90 px-8 py-6 text-base tracking-wide"
           >
-            <Link href="#quote">Request a Quote</Link>
+            <Link href="#quote">Get a Quote in 24 Hours</Link>
           </Button>
         </div>
       </div>
 
-      {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
         <div className="w-px h-16 bg-background/50" />
       </div>
