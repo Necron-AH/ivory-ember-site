@@ -3,27 +3,27 @@ import Image from "next/image"
 const rentals = [
   {
     title: "Candelabras",
-    description: "Sculptural light for atmosphere that speaks before a word is said",
+    description: "Elegant table lighting that adds warmth and a formal atmosphere to your event",
     image: "/images/rentals/candelabras.jpg",
   },
   {
     title: "Tables",
-    description: "Thoughtfully crafted surfaces where memories are made",
+    description: "Sturdy, clean tables sized for dining, desserts, or guest seating arrangements",
     image: "/images/rentals/tables.jpg",
   },
   {
     title: "Chairs",
-    description: "Quietly considered seating that elevates every detail",
+    description: "Comfortable seating options that match your event style and guest count",
     image: "/images/rentals/chairs.jpg",
   },
   {
     title: "Centerpieces",
-    description: "Composed arrangements that bring intention to every table",
+    description: "Pre-designed table arrangements that bring your entire setup together visually",
     image: "/images/rentals/centerpieces.jpg",
   },
   {
     title: "Arches",
-    description: "Framing your most meaningful moments with timeless form",
+    description: "Statement backdrops for ceremonies, entrances, or photo areas",
     image: "/images/rentals/arches.jpg",
   },
 ]
