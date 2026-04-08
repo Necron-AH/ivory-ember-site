@@ -667,7 +667,7 @@ function QuoteSection() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
                                     type: "text",
-                                    placeholder: "Event Location",
+                                    placeholder: "Chicago or Suburb (e.g. Naperville, Evanston)",
                                     value: formData.location,
                                     onChange: (e)=>setFormData({
                                             ...formData,
@@ -681,7 +681,7 @@ function QuoteSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
                                     type: "text",
-                                    placeholder: "Estimated Guest Count",
+                                    placeholder: "Approx. number of guests (50–70 ideal)",
                                     value: formData.guestCount,
                                     onChange: (e)=>setFormData({
                                             ...formData,
@@ -839,7 +839,7 @@ function QuoteSection() {
                             type: "submit",
                             size: "lg",
                             className: "w-full md:w-auto bg-accent text-accent-foreground hover:brightness-110 px-20 py-8 text-base md:text-lg tracking-widest uppercase font-semibold shadow-lg transition-all duration-200",
-                            children: "Request a Quote"
+                            children: "Get My Setup Plan"
                         }, void 0, false, {
                             fileName: "[project]/components/quote-section.tsx",
                             lineNumber: 120,

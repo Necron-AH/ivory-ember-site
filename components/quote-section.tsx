@@ -18,16 +18,22 @@ export function QuoteSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Mock form submission - in a real app, this would send to a backend
     console.log("Form submitted:", formData)
     alert("Thank you for your inquiry! We&apos;ll be in touch soon.")
-    setFormData({ name: "", email: "", location: "", eventDate: "", eventType: "", guestCount: "", message: "" })
+    setFormData({
+      name: "",
+      email: "",
+      location: "",
+      eventDate: "",
+      eventType: "",
+      guestCount: "",
+      message: "",
+    })
   }
 
   return (
     <section id="quote" className="py-24 lg:py-32 bg-primary">
       <div className="mx-auto max-w-3xl px-6 lg:px-8 text-center">
-        {/* Section Header */}
         <p className="text-sm tracking-widest uppercase text-primary-foreground/70 mb-4">
           Get a Quote
         </p>
@@ -46,7 +52,6 @@ export function QuoteSection() {
           <span className="inline-block w-8 h-px bg-primary-foreground/30" />
         </p>
 
-        {/* Quote Form */}
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Input
@@ -96,7 +101,9 @@ export function QuoteSection() {
                 onChange={(e) => setFormData({ ...formData, eventType: e.target.value })}
                 className="w-full bg-primary-foreground text-foreground border-0 h-12 pl-4 pr-10 rounded-md text-sm tracking-wide focus:outline-none focus:ring-2 focus:ring-accent appearance-none cursor-pointer"
               >
-                <option value="" disabled>Type of Event</option>
+                <option value="" disabled>
+                  Type of Event
+                </option>
                 <option value="wedding">Wedding</option>
                 <option value="engagement">Engagement Celebration</option>
                 <option value="birthday">Private Dinner or Party</option>

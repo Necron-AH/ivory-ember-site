@@ -594,7 +594,6 @@ function QuoteSection() {
     });
     const handleSubmit = (e)=>{
         e.preventDefault();
-        // Mock form submission - in a real app, this would send to a backend
         console.log("Form submitted:", formData);
         alert("Thank you for your inquiry! We&apos;ll be in touch soon.");
         setFormData({
@@ -618,7 +617,7 @@ function QuoteSection() {
                     children: "Get a Quote"
                 }, void 0, false, {
                     fileName: "[project]/components/quote-section.tsx",
-                    lineNumber: 31,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -626,7 +625,7 @@ function QuoteSection() {
                     children: "Event Setups for 50–70 Guests, Done for You"
                 }, void 0, false, {
                     fileName: "[project]/components/quote-section.tsx",
-                    lineNumber: 34,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -634,7 +633,7 @@ function QuoteSection() {
                     children: "Tell us your event details and we’ll send you a clear setup plan with pricing, availability, and everything included—delivery, setup, and breakdown."
                 }, void 0, false, {
                     fileName: "[project]/components/quote-section.tsx",
-                    lineNumber: 37,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -642,7 +641,7 @@ function QuoteSection() {
                     children: "Most quotes are delivered within 24 hours."
                 }, void 0, false, {
                     fileName: "[project]/components/quote-section.tsx",
-                    lineNumber: 40,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -652,7 +651,7 @@ function QuoteSection() {
                             className: "inline-block w-8 h-px bg-primary-foreground/30"
                         }, void 0, false, {
                             fileName: "[project]/components/quote-section.tsx",
-                            lineNumber: 44,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this),
                         "Serving Chicago and surrounding suburbs for events of 50–70 guests",
@@ -660,13 +659,13 @@ function QuoteSection() {
                             className: "inline-block w-8 h-px bg-primary-foreground/30"
                         }, void 0, false, {
                             fileName: "[project]/components/quote-section.tsx",
-                            lineNumber: 46,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/quote-section.tsx",
-                    lineNumber: 43,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -688,7 +687,7 @@ function QuoteSection() {
                                     className: "bg-primary-foreground text-foreground placeholder:text-muted-foreground border-0 h-12"
                                 }, void 0, false, {
                                     fileName: "[project]/components/quote-section.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -703,13 +702,13 @@ function QuoteSection() {
                                     className: "bg-primary-foreground text-foreground placeholder:text-muted-foreground border-0 h-12"
                                 }, void 0, false, {
                                     fileName: "[project]/components/quote-section.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/quote-section.tsx",
-                            lineNumber: 51,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -717,7 +716,7 @@ function QuoteSection() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
                                     type: "text",
-                                    placeholder: "Event Location",
+                                    placeholder: "Chicago or Suburb (e.g. Naperville, Evanston)",
                                     value: formData.location,
                                     onChange: (e)=>setFormData({
                                             ...formData,
@@ -726,12 +725,12 @@ function QuoteSection() {
                                     className: "bg-primary-foreground text-foreground placeholder:text-muted-foreground border-0 h-12"
                                 }, void 0, false, {
                                     fileName: "[project]/components/quote-section.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
                                     type: "text",
-                                    placeholder: "Estimated Guest Count",
+                                    placeholder: "Approx. number of guests (50–70 ideal)",
                                     value: formData.guestCount,
                                     onChange: (e)=>setFormData({
                                             ...formData,
@@ -740,13 +739,13 @@ function QuoteSection() {
                                     className: "bg-primary-foreground text-foreground placeholder:text-muted-foreground border-0 h-12"
                                 }, void 0, false, {
                                     fileName: "[project]/components/quote-section.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/quote-section.tsx",
-                            lineNumber: 69,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -763,7 +762,7 @@ function QuoteSection() {
                                     className: "bg-primary-foreground text-foreground placeholder:text-muted-foreground border-0 h-12"
                                 }, void 0, false, {
                                     fileName: "[project]/components/quote-section.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -783,7 +782,7 @@ function QuoteSection() {
                                                     children: "Type of Event"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/quote-section.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 104,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -791,7 +790,7 @@ function QuoteSection() {
                                                     children: "Wedding"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/quote-section.tsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 107,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -799,7 +798,7 @@ function QuoteSection() {
                                                     children: "Engagement Celebration"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/quote-section.tsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 108,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -807,7 +806,7 @@ function QuoteSection() {
                                                     children: "Private Dinner or Party"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/quote-section.tsx",
-                                                    lineNumber: 102,
+                                                    lineNumber: 109,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -815,7 +814,7 @@ function QuoteSection() {
                                                     children: "Corporate Gathering"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/quote-section.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 110,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -823,13 +822,13 @@ function QuoteSection() {
                                                     children: "Other Occasion"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/quote-section.tsx",
-                                                    lineNumber: 104,
+                                                    lineNumber: 111,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/quote-section.tsx",
-                                            lineNumber: 94,
+                                            lineNumber: 99,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -846,29 +845,29 @@ function QuoteSection() {
                                                     strokeLinejoin: "round"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/quote-section.tsx",
-                                                    lineNumber: 108,
+                                                    lineNumber: 115,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/quote-section.tsx",
-                                                lineNumber: 107,
+                                                lineNumber: 114,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/quote-section.tsx",
-                                            lineNumber: 106,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/quote-section.tsx",
-                                    lineNumber: 93,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/quote-section.tsx",
-                            lineNumber: 85,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -882,34 +881,34 @@ function QuoteSection() {
                             className: "bg-primary-foreground text-foreground placeholder:text-muted-foreground border-0 resize-none"
                         }, void 0, false, {
                             fileName: "[project]/components/quote-section.tsx",
-                            lineNumber: 113,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                             type: "submit",
                             size: "lg",
                             className: "w-full md:w-auto bg-accent text-accent-foreground hover:brightness-110 px-20 py-8 text-base md:text-lg tracking-widest uppercase font-semibold shadow-lg transition-all duration-200",
-                            children: "Request a Quote"
+                            children: "Get My Setup Plan"
                         }, void 0, false, {
                             fileName: "[project]/components/quote-section.tsx",
-                            lineNumber: 120,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/quote-section.tsx",
-                    lineNumber: 50,
+                    lineNumber: 55,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/quote-section.tsx",
-            lineNumber: 29,
+            lineNumber: 36,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/quote-section.tsx",
-        lineNumber: 28,
+        lineNumber: 35,
         columnNumber: 5
     }, this);
 }
