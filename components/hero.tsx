@@ -6,13 +6,13 @@ export function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center pt-20">
       <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/hero-wedding.jpg"
-          alt="Elegant wedding reception setup"
-          fill
-          className="object-cover"
-          priority
-        />
+  <Image
+    src="/images/hero-wedding.jpg"
+    alt="Elegant wedding reception setup"
+    fill
+    className="object-cover"
+    priority
+  />
         <div className="absolute inset-0 bg-foreground/50" />
       </div>
 
