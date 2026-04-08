@@ -310,19 +310,27 @@ function FeaturedRentals() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-sm tracking-widest uppercase text-muted-foreground mb-4",
-                            children: "Our Collection"
+                            children: "What We Provide"
                         }, void 0, false, {
                             fileName: "[project]/components/featured-rentals.tsx",
                             lineNumber: 37,
-                            columnNumber: 11
+                            columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "font-serif text-3xl md:text-4xl lg:text-5xl text-foreground tracking-tight",
-                            children: "Featured Rentals"
+                            children: "Everything You Need for a Complete Event Setup"
                         }, void 0, false, {
                             fileName: "[project]/components/featured-rentals.tsx",
-                            lineNumber: 40,
-                            columnNumber: 11
+                            lineNumber: 41,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "mt-6 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto",
+                            children: "From tables and chairs to full decorative setups, we provide everything needed to host a clean, coordinated event without the stress."
+                        }, void 0, false, {
+                            fileName: "[project]/components/featured-rentals.tsx",
+                            lineNumber: 45,
+                            columnNumber: 3
                         }, this)
                     ]
                 }, void 0, true, {
@@ -348,12 +356,12 @@ function FeaturedRentals() {
                                         className: "object-cover object-center transition-transform duration-500 group-hover:scale-105"
                                     }, void 0, false, {
                                         fileName: "[project]/components/featured-rentals.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 58,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/featured-rentals.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 57,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -364,7 +372,7 @@ function FeaturedRentals() {
                                             children: rental.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/featured-rentals.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 67,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -372,24 +380,24 @@ function FeaturedRentals() {
                                             children: rental.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/featured-rentals.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 70,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/featured-rentals.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 66,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, rental.title, true, {
                             fileName: "[project]/components/featured-rentals.tsx",
-                            lineNumber: 48,
+                            lineNumber: 53,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/featured-rentals.tsx",
-                    lineNumber: 46,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this)
             ]

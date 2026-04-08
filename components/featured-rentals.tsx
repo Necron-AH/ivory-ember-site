@@ -34,13 +34,18 @@ export function FeaturedRentals() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <p className="text-sm tracking-widest uppercase text-muted-foreground mb-4">
-            Our Collection
-          </p>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground tracking-tight">
-            Featured Rentals
-          </h2>
-        </div>
+  <p className="text-sm tracking-widest uppercase text-muted-foreground mb-4">
+    What We Provide
+  </p>
+
+  <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground tracking-tight">
+    Everything You Need for a Complete Event Setup
+  </h2>
+
+  <p className="mt-6 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
+    From tables and chairs to full decorative setups, we provide everything needed to host a clean, coordinated event without the stress.
+  </p>
+</div>
 
         {/* Rentals Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-8 items-start">
